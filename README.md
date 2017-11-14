@@ -68,8 +68,8 @@ This section describes the OAuth flow steps to get the access token required to 
   
   
 ### Initial Setup
-To integrate SDK in your project, you have two options:
-#### *1. EASIER WAY:* Clone the remote-pay-android-hackathon repository and add a new module for your app into the project
+To integrate SDK in your project, you have two options:  
+#### 1. Clone the remote-pay-android-hackathon repository and add a new module for your app into the project
   - Clone remote-pay-android-go
   - Create a new module in the project
   - When prompted, select Phone & Tablet Module
@@ -77,7 +77,7 @@ To integrate SDK in your project, you have two options:
   - In your module’s build.gradle file, add the following line under dependencies
     compile project(':remote-pay-android-connector')      
     
-2. Clone the remote-pay-android-go repository and copy the necessary modules into your own android project
+#### 2. Clone the remote-pay-android-go repository and copy the necessary modules into your own android project
   - Create or open your own project
   - Clone remote-pay-android-hackathon into a separate project
   - Using Finder (Finder/Explorer) copy the following folders/module into your own project
